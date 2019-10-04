@@ -64,7 +64,7 @@ body{
 .contain-img2{
 	align-items:center;
 	justify-content: center;
-	width:50%;
+	width:calc(100%/3);
 	height:50%;
 }
 .contain-img3{
@@ -93,7 +93,7 @@ body{
 .kitten {content: url("images/aii.jpg");}
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 675px) {
 	body{
 		display:block
 	}
